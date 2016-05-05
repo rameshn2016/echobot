@@ -7,7 +7,7 @@ var botConnectorOptions = {
     appSecret: process.env.BOTFRAMEWORK_APPSECRET 
 };
 
-// Create bot
+// Create  connector  bot
 var bot = new builder.BotConnectorBot(botConnectorOptions);
 bot.add('/', function (session) {
     
